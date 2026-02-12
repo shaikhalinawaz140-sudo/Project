@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+body, .time, .left-side, .right-side, .right-top, .right-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(90deg, #2e2e45, #000);
+    
+}
+
+.degital-clock{
+    color: white;
+    background-color: #2d2f38;
+    width: 425px;
+    padding: 20px 45px;
+    box-shadow: 0px 5px 25px goldenrod ;
+    border-radius: 10px;
+
+}
+
+
+
+
+#hours{
+    font-weight: 600px;
+    font-size: 8em;
+    line-height: 125px;
+    padding: 0 10px;
+    background: -webkit-linear-gradient(90deg, goldenrod, white);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+
+}
+.right-side{
+    flex-direction: column;
+}
+
+#dots{
+    margin-top: 20px;
+    font-size: 4.5em;
+    transform: translateY(-3px);
+    /* color: gray; */
+     background: -webkit-linear-gradient(90deg, goldenrod, white);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+#minites{
+    font-size:5em;
+    /* color: goldenrod; */
+    font-weight: 500;
+    margin-left: 10px;
+    transform: translateY(10px);
+    background: -webkit-linear-gradient(90deg, goldenrod, white);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+
+#period{
+    color: goldenrod;
+     background: -webkit-linear-gradient(90deg, goldenrod, white);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
+#period, #seconds{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-bottom: 10px;
+   
+}
+    
+#seconds{
+    margin-left: 10px;
+    background: -webkit-linear-gradient(90deg, pink, white);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+}
